@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Dishes",
+    "description": "Gather, wash, dry and put away all the dishes."
+  },
+  {
+    "title": "Laundry",
+    "description": "Gather all the dirty laundry and put run it through the washer and dryer. When it's done, fold it and put it away."
+  },
+  {
+    "title": "Change sheets",
+    "description": "Take all the sheets off the bed and wash them, dry them, then put them back on the bed."
+  },
+  {
+    "title": "Mop the floor",
+    "description": "Sweep, vacuum, then mop the whole floor, then put away the mop and wash the mop head."
+  },
+  {
+    "title": "Cat Litter",
+    "description": "Throw away cat poop daily, replace the cat litter once a week. Sweep around the area."
+  }
+]
