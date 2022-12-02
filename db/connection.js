@@ -8,13 +8,15 @@ const db = mongoose.connection;
 mongoose.connect(mongoURI);
 
 // Connection Error/Success
-db.on('error', (err) => console.log(err.message + 'Uh oh, is Mongod not running?'));
+db.on('error', (err) =>
+	console.log(err.message + 'Uh oh, is Mongodb not running?')
+);
 db.on('connected', () => console.log('mongo connected at:' + mongoURI));
 db.on('disconnected', () => console.log('mongo disconnected. bye-bye!'));
 
 // Open the connection
 db.on('open', () => {
-    console.log('✅ mongo connection made!')
+	console.log('✅ mongo connection made!');
 });
 
-module.exports = mongoose
+module.exports = mongoose;
